@@ -1,0 +1,84 @@
+/*mobile*/
+@media(min-width:320px){
+    .container{
+        width:100%;
+    }
+    .shop-card{
+        display: flex;
+    }
+    .shop-col-1{
+        padding-left: 30%;
+    }
+    
+    .shop-col-2{
+        width:100%;
+        
+    }
+    .shop-col-3{
+        width:100%;
+        
+    }
+    .view-btn{
+        padding-left: 50px;
+    }
+    .size-btn-1 a,.size-btn-2 a,.size-btn-3 a,.size-btn-4 a,.size-btn-5 a{
+        margin-right: 5px;
+    }
+}
+/*ipad*/
+@media(min-width:660px){
+    .container{
+        width:100%;
+    }
+    .shop-card{
+        display: flex;
+    
+    }
+    .shop-col-1{
+        padding-left: 20%;
+    }
+    .shop-col-2{
+        width:100%;
+        
+    }
+    .shop-col-3{
+        width:100%;
+        
+    }
+    .view-btn{
+        padding-left: 150px;
+    }.size-btn-1 a,.size-btn-2 a,.size-btn-3 a,.size-btn-4 a,.size-btn-5 a{
+        margin-right: 5px;
+    }
+    
+}
+/*laptop*/
+@media(min-width:1000px){
+    .container{
+        width:80%;
+        margin: auto;
+    }
+    .shop-row{
+        display: flex;
+    }
+    .shop-card{
+        flex-direction: column;
+    }
+    .shop-col-1{
+        padding-left: 0px;
+    }
+    .shop-col-2{
+        width:45%;
+        
+    }
+    .shop-col-3{
+        width:45%;
+        
+    }
+    .view-btn{
+        padding-left: 150px;
+    }
+    .size-btn-1 a,.size-btn-2 a,.size-btn-3 a,.size-btn-4 a,.size-btn-5 a{
+        margin-right: 10px;
+    }
+}
